@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rsschool-CV</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <link href="libs/prism.css" rel="stylesheet" />
+</head>
+
+<body>
+   <script src="libs/prism.js"></script>
+   <div class="box-centered">
+      <main>
+         <header class="header">
+            <nav class="nav">
+               <ul>
+                  <li><a href="#personal" class="nav-a">personal</a></li>
+                  <li><a href="#experience" class="nav-a">my experience</a></li>
+                  <li><a href="#education" class="nav-a">my education</a></li>
+               </ul>
+            </nav>
+         </header>
+         <section class="box-1">
+            <h1 id="main-text">
+               Hello, <br>
+               I’m Ihar Navitski <br>
+               Your future web developer
+            </h1>
+            <div class="photo"><img src="img/photo.png" alt="personal photo" id="photo"></div>
+         </section>
+         <div class="line"></div>
+         <h2 id="personal" class="heading">Personal information</h2>
+         <div class="line"></div>
+         <section class="section">
+            <div class="block">
+               <h3 class="title">Contacts</h3>
+               <ul>
+                  <li><img src="./img/cell.png" alt="Phone Icon" width="30" height="30">
+                     <p>+375447915907</p>
+                  </li>
+                  <li><img src="./img/mail.png" alt="mail Icon" width="30" height="30">
+                     <p>pro100nke@gmail.com</p>
+                  </li>
+                  <li><img src="./img/twit.png" alt="twitter Icon" width="30" height="30">
+                     <a href="https://twitter.com/Igor24368075" style="text-decoration: none;">
+                        <p>@Igor24368075</p>
+                     </a>
+                  </li>
+               </ul>
+
+            </div>
+            <div>
+               <h3 class="title">About me</h3>
+               <h4> I have spent the last six years developing my skills as a Civil engineer. But now I have
+                  discovered a
+                  more interesting profession for myself - Web Development. Day by day, after the main work, I practice
+                  and
+                  study the theory of web programming. Almost all of my free time is spent on “lines of code” and online
+                  simulators. I think that my diligence and hard work will help me become exactly the developer you
+                  need.</h4>
+            </div>
+         </section>
+         <div class="line"></div>
+         <h2 id="experience" class="heading">My experience</h2>
+         <div class="line"></div>
+         <section class="section">
+            <div>
+               <h3 class="title">Skills and Proficiency</h3>
+               <ul class="point">
+                  <li>HTML5, CSS3</li>
+                  <li>JavaScript (Basic)</li>
+                  <li>Git, GitHub</li>
+                  <li>VS Code</li>
+                  <li>Adobe Photoshop</li>
+               </ul>
+            </div>
+            <div>
+               <h3 class="title">Code example</h3>
+               <pre>
+                  <code class="language-js">
+            let x = +prompt('x',);
+            let n = +prompt('n',);
+            let a;
+            for (let i = 1; i != n && i &lt;= n; i++) {
+            a = i + 1
+            };
+            function pov(x, n) {
+            return x ** n;
+            };
+            if (a == undefined) { alert("введите n натуральное"); }
+            else { alert(pov(x, n)); };
+            </code>
+            </pre>
+            </div>
+            <div>
+               <h3 class="title">PROJECTS</h3>
+               <a href="https://igor-novitski.github.io/cssMemSlider/cssMemSlider/index.html"><img
+                     src="img/mem-slider.png" alt="slider" id="slider"> </a>
+            </div>
+         </section>
+         <div class="line"></div>
+         <h2 id="education" class="heading">My education</h2>
+         <div class="line"></div>
+         <section class="section">
+            <h3 class="title">Courses</h3>
+            <ul class="notpoint">
+               <li>In 2015 I finished BSTU</li>
+               <li>HTML Academy</li>
+               <li>RS Schools Course «JavaScript/Front-end. Stage 0» </li>
+            </ul>
+            <h3 class="title">Languages:</h3>
+            <ul class="notpoint">
+               <li>English -Pre Intermediate (according to the online test at<a href="https://test.str.by/"
+                     style="text-decoration: none;"> test.str.by</a>)</li>
+               <li>Russian - Native</li>
+            </ul>
+         </section>
+      </main>
+      <footer class="page-footer">
+         <a href="https://github.com/Igor-Novitski" style="text-decoration: none; color:black;">
+            <img src="./img/github.png" alt="github Icon" width="35" height="35">My GitHub</a>
+         <time>2022</time>
+         <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rs school logo" width="60"
+               height="60"></a>
+      </footer>
+   </div>
+</body>
