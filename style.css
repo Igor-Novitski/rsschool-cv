@@ -182,9 +182,16 @@ vertical-align: middle;
 margin-right: 5px;
 }
 
-#slider {
+.projects{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.projects a img {
   display: block;
-  width: 40%;
+  width: 19vw;
+  max-width: 250px;
   height: auto;
   border-radius: 30px;
   box-shadow: 0px 0px 20px 1px rgba(8, 7, 7, 0.23);
@@ -212,4 +219,10 @@ font-size: 12px;
   padding: 4px;
   border-radius: 12px;
 }
+}
+
+@media (max-width: 500px) {
+ .nav-a {
+      font-size: 8px;
+  } 
 }
