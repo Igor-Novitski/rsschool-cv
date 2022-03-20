@@ -8,6 +8,7 @@
 **E-mail:** pro100nke@gmail.com<br>
 **twitter:** @Igor24368075<br>
 **GitHub:** [Igor-Novitski](https://github.com/Igor-Novitski)<br>
+**Discord** @pro100nke#6163<br>
 ---
 
 ### About My
@@ -29,25 +30,26 @@ I have spent the last six years developing my skills as a Civil engineer. But no
 ### Code example:
 
 ```javascript
-let x = +prompt('x',);
-let n = +prompt('n',);
-let a;
-for (let i = 1; i != n && i <= n; i++) {
-   a = i + 1
-};
-
-function pov(x, n) {
-   return x ** n;
-};
-if (a == undefined) { alert("введите n натуральное"); }
-else { alert(pov(x, n)); };
+let runLengthEncoding = function (str) {
+   let arr = [];
+   let count = 1;
+   for (let i = 0; i < str.length; i++) {
+      if (str[i] == str[i + 1]) {
+         count++;
+      } else {
+         arr.push([count, str[i]]);
+         count = 1;
+      }
+   }
+   return arr;
+}
 ```
 ---
 
 ### Courses:
 
 - [HTML Academy](https://htmlacademy.ru/courses) <br>
-- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)<br>
+- RS Schools Course «JavaScript/Front-end. Stage 0» <br>
 
 ---
 
